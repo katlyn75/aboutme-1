@@ -20,9 +20,10 @@ if(petBest.toLowerCase() === 'yes' || petBest.toLowerCase() === 'y') {
     alert('Sorry, he does think dogs are the best.');
 }
 
+//prompts user about charlie running a half marathon
 const runHalf = prompt('Has Charlie run a half marathon?');
 console.log('user answer to if charlie has run a half ' + runHalf);
-
+//converts to lowercase and runs if esle
 if(runHalf.toLowerCase() === 'yes' || runHalf.toLowerCase() === 'y') {
     alert('Yep, Charlie has run over 13 half marathons.');
 } else {
@@ -43,7 +44,7 @@ if(homeTown.toLowerCase() === 'no' || homeTown.toLowerCase() === 'n'){
 //prompt user about charlie liking scary movies saves to scaryLike
 const scaryLike = prompt ('Does Charlie like scary movies?');
 console.log('user answer to if Charlie likes scary movies is ' + scaryLike);
-
+//converts response to lowercase runs if else
 if(scaryLike.toLowerCase() === 'yes' || scaryLike.toLowerCase() === 'y'){
     alert('Yes, Charlie likes scary movies!')
 }else {
