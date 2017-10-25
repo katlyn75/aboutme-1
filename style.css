@@ -1,0 +1,21 @@
+body {
+    
+    background-color: rgb(182, 209, 236);
+}
+h1 {
+    color: rgb(5, 5, 121);
+}
+
+h2 {
+    color: rgb(5, 5, 121);
+}
+
+p{
+   font-family: 'Gill Sans';
+   color: rgb(5,5,121); 
+}
+
+#movies{
+    list-style-type: square;
+    
+}
