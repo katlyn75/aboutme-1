@@ -2,12 +2,13 @@
 
 let totalScore = 0;
 const user = prompt('Hi! What\'s your name?');
-//questionOne ();
-//questionTwo ();
-//questionThree ();
-//questionFour ();
-//questionFive ();
-//questionSix ();
+
+questionOne ();
+questionTwo ();
+questionThree ();
+questionFour ();
+questionFive ();
+questionSix ();
 questionSeven ();
 
 
@@ -105,9 +106,9 @@ function questionSeven (){
     let favSport = prompt('Can you guess what is one of my favorite sports?');
     const mySport = ['basketball', 'golf', 'football'];
 
-    while(mySport.includes(favSport) === false) {
+    while(mySport.includes(favSport) === false){
         favSport = prompt('Oops. That\'s not one of my favorite sports. Lets try again.');
-    } 
+    }
     alert('That\'s right! I love ' + favSport);
     totalScore ++;
 }
