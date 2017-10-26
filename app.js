@@ -86,8 +86,8 @@ for(let i = 0; i < 4; i++){
 
 let favSport = prompt('Can you guess what is one of my favorite sports?');
 const mySport = ['basketball', 'golf', 'football'];
-const smallFavSport = favSport.toLowerCase;
-while(mySport.includes(smallFavSport) === false) {
+
+while(mySport.includes(favSport) === false) {
     favSport = prompt('Oops. That\'s not one of my favorite sports. Lets try again.');
 }
 
